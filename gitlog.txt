@@ -1,0 +1,674 @@
+Last login: Mon May 14 13:01:21 on ttys000
+MacBook-Pro:~ slinjung$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.CFUserTextEncoding
+	.Trash/
+	.bash_history
+	.bash_profile
+	.bash_sessions/
+	.config/
+	.cups/
+	.lesshst
+	.mysql_history
+	.node_repl_history
+	.npm/
+	.viminfo
+	.vscode/
+	Applications/
+	Desktop/
+	Documents/
+	Downloads/
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	Sites/
+
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Pro:~ slinjung$ cd Desktop/Programming/20180514
+MacBook-Pro:20180514 slinjung$ git clone https://github.com/slincjung/20180514.git
+Cloning into '20180514'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+MacBook-Pro:20180514 slinjung$ git add Boxesboxesboxes.css
+MacBook-Pro:20180514 slinjung$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   Boxesboxesboxes.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../../../.CFUserTextEncoding
+	../../../.Trash/
+	../../../.bash_history
+	../../../.bash_profile
+	../../../.bash_sessions/
+	../../../.config/
+	../../../.cups/
+	../../../.lesshst
+	../../../.mysql_history
+	../../../.node_repl_history
+	../../../.npm/
+	../../../.viminfo
+	../../../.vscode/
+	../../../Applications/
+	../../.localized
+	../../ASCII art.rtf
+	../../Atelier/
+	../../Budget2018.numbers
+	../20180312/
+	../20180313/
+	../20180314/
+	../20180315/
+	../20180316/
+	../20180317_weekend/
+	../20180319/
+	../20180320/
+	../20180321/
+	../20180322/
+	../20180323/
+	../20180326/
+	../20180327/
+	../20180328/
+	../20180329/
+	../20180330/
+	../20180402/
+	../20180403/
+	../20180404/
+	../20180405/
+	../20180406/
+	../20180409/
+	../20180410/
+	../20180411/
+	../20180412/
+	../20180413/
+	../20180416/
+	../20180417/
+	../20180418/
+	../20180420/
+	../20180423/
+	../20180424/
+	../20180425/
+	../20180511/
+	20180514/
+	database.php
+	mcescher.html
+	../../Work/
+	../../ascii.txt
+	../../e-티켓 확인증 - Korean Air.pdf
+	../../git-2.16.3-intel-universal-mavericks.dmg
+	../../../Documents/
+	../../../Downloads/
+	../../../Library/
+	../../../Movies/
+	../../../Music/
+	../../../Pictures/
+	../../../Public/
+	../../../Sites/
+
+MacBook-Pro:20180514 slinjung$ git add database.php
+MacBook-Pro:20180514 slinjung$ git add mcescher.html
+MacBook-Pro:20180514 slinjung$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   Boxesboxesboxes.css
+	new file:   database.php
+	new file:   mcescher.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../../../.CFUserTextEncoding
+	../../../.Trash/
+	../../../.bash_history
+	../../../.bash_profile
+	../../../.bash_sessions/
+	../../../.config/
+	../../../.cups/
+	../../../.lesshst
+	../../../.mysql_history
+	../../../.node_repl_history
+	../../../.npm/
+	../../../.viminfo
+	../../../.vscode/
+	../../../Applications/
+	../../.localized
+	../../ASCII art.rtf
+	../../Atelier/
+	../../Budget2018.numbers
+	../20180312/
+	../20180313/
+	../20180314/
+	../20180315/
+	../20180316/
+	../20180317_weekend/
+	../20180319/
+	../20180320/
+	../20180321/
+	../20180322/
+	../20180323/
+	../20180326/
+	../20180327/
+	../20180328/
+	../20180329/
+	../20180330/
+	../20180402/
+	../20180403/
+	../20180404/
+	../20180405/
+	../20180406/
+	../20180409/
+	../20180410/
+	../20180411/
+	../20180412/
+	../20180413/
+	../20180416/
+	../20180417/
+	../20180418/
+	../20180420/
+	../20180423/
+	../20180424/
+	../20180425/
+	../20180511/
+	20180514/
+	../../Work/
+	../../ascii.txt
+	../../e-티켓 확인증 - Korean Air.pdf
+	../../git-2.16.3-intel-universal-mavericks.dmg
+	../../../Documents/
+	../../../Downloads/
+	../../../Library/
+	../../../Movies/
+	../../../Music/
+	../../../Pictures/
+	../../../Public/
+	../../../Sites/
+
+MacBook-Pro:20180514 slinjung$ git commit -m "I hope thie works. Sending html css and php files to the hub.
+> "
+[master (root-commit) b1512b7] I hope thie works. Sending html css and php files to the hub.
+ Committer: Slin Jung <slinjung@MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 20 insertions(+)
+ create mode 100644 Desktop/Programming/20180514/Boxesboxesboxes.css
+ create mode 100644 Desktop/Programming/20180514/database.php
+ create mode 100644 Desktop/Programming/20180514/mcescher.html
+MacBook-Pro:20180514 slinjung$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../../../.CFUserTextEncoding
+	../../../.Trash/
+	../../../.bash_history
+	../../../.bash_profile
+	../../../.bash_sessions/
+	../../../.config/
+	../../../.cups/
+	../../../.lesshst
+	../../../.mysql_history
+	../../../.node_repl_history
+	../../../.npm/
+	../../../.viminfo
+	../../../.vscode/
+	../../../Applications/
+	../../.localized
+	../../ASCII art.rtf
+	../../Atelier/
+	../../Budget2018.numbers
+	../20180312/
+	../20180313/
+	../20180314/
+	../20180315/
+	../20180316/
+	../20180317_weekend/
+	../20180319/
+	../20180320/
+	../20180321/
+	../20180322/
+	../20180323/
+	../20180326/
+	../20180327/
+	../20180328/
+	../20180329/
+	../20180330/
+	../20180402/
+	../20180403/
+	../20180404/
+	../20180405/
+	../20180406/
+	../20180409/
+	../20180410/
+	../20180411/
+	../20180412/
+	../20180413/
+	../20180416/
+	../20180417/
+	../20180418/
+	../20180420/
+	../20180423/
+	../20180424/
+	../20180425/
+	../20180511/
+	20180514/
+	../../Work/
+	../../ascii.txt
+	../../e-티켓 확인증 - Korean Air.pdf
+	../../git-2.16.3-intel-universal-mavericks.dmg
+	../../../Documents/
+	../../../Downloads/
+	../../../Library/
+	../../../Movies/
+	../../../Music/
+	../../../Pictures/
+	../../../Public/
+	../../../Sites/
+
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Pro:20180514 slinjung$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+MacBook-Pro:20180514 slinjung$ https://github.com
+-bash: https://github.com: No such file or directory
+MacBook-Pro:20180514 slinjung$ git push https://github.com
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com master
+
+MacBook-Pro:20180514 slinjung$ https://github.com/slincjung/20180514.git
+-bash: https://github.com/slincjung/20180514.git: No such file or directory
+MacBook-Pro:20180514 slinjung$ git push https://github.com/slincjung/20180514.git
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/slincjung/20180514.git master
+
+MacBook-Pro:20180514 slinjung$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+MacBook-Pro:20180514 slinjung$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+MacBook-Pro:20180514 slinjung$ ls
+20180514		Boxesboxesboxes.css	database.php		mcescher.html
+MacBook-Pro:20180514 slinjung$ ls -al
+total 48
+drwxr-xr-x   7 slinjung  staff   224 May 14 13:24 .
+drwxr-xr-x  39 slinjung  staff  1248 May 14 12:39 ..
+-rw-r--r--@  1 slinjung  staff  8196 May 14 13:28 .DS_Store
+drwxr-xr-x   4 slinjung  staff   128 May 14 13:24 20180514
+-rw-r--r--@  1 slinjung  staff    33 May 14 13:07 Boxesboxesboxes.css
+-rw-r--r--@  1 slinjung  staff    37 May 14 13:08 database.php
+-rw-r--r--@  1 slinjung  staff   289 May 14 13:08 mcescher.html
+MacBook-Pro:20180514 slinjung$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../../../.CFUserTextEncoding
+	../../../.Trash/
+	../../../.bash_history
+	../../../.bash_profile
+	../../../.bash_sessions/
+	../../../.config/
+	../../../.cups/
+	../../../.lesshst
+	../../../.mysql_history
+	../../../.node_repl_history
+	../../../.npm/
+	../../../.viminfo
+	../../../.vscode/
+	../../../Applications/
+	../../.localized
+	../../ASCII art.rtf
+	../../Atelier/
+	../../Budget2018.numbers
+	../20180312/
+	../20180313/
+	../20180314/
+	../20180315/
+	../20180316/
+	../20180317_weekend/
+	../20180319/
+	../20180320/
+	../20180321/
+	../20180322/
+	../20180323/
+	../20180326/
+	../20180327/
+	../20180328/
+	../20180329/
+	../20180330/
+	../20180402/
+	../20180403/
+	../20180404/
+	../20180405/
+	../20180406/
+	../20180409/
+	../20180410/
+	../20180411/
+	../20180412/
+	../20180413/
+	../20180416/
+	../20180417/
+	../20180418/
+	../20180420/
+	../20180423/
+	../20180424/
+	../20180425/
+	../20180511/
+	20180514/
+	../../Work/
+	../../ascii.txt
+	../../e-티켓 확인증 - Korean Air.pdf
+	../../git-2.16.3-intel-universal-mavericks.dmg
+	../../../Documents/
+	../../../Downloads/
+	../../../Library/
+	../../../Movies/
+	../../../Music/
+	../../../Pictures/
+	../../../Public/
+	../../../Sites/
+
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Pro:20180514 slinjung$ ls -al
+total 48
+drwxr-xr-x   7 slinjung  staff   224 May 14 13:24 .
+drwxr-xr-x  39 slinjung  staff  1248 May 14 12:39 ..
+-rw-r--r--@  1 slinjung  staff  8196 May 14 13:28 .DS_Store
+drwxr-xr-x   4 slinjung  staff   128 May 14 13:24 20180514
+-rw-r--r--@  1 slinjung  staff    33 May 14 13:07 Boxesboxesboxes.css
+-rw-r--r--@  1 slinjung  staff    37 May 14 13:08 database.php
+-rw-r--r--@  1 slinjung  staff   289 May 14 13:08 mcescher.html
+MacBook-Pro:20180514 slinjung$ cd ..
+MacBook-Pro:Programming slinjung$ ls -al
+total 144
+drwxr-xr-x  39 slinjung  staff   1248 May 14 12:39 .
+drwx------+ 12 slinjung  staff    384 May 13 20:33 ..
+-rw-r--r--@  1 slinjung  staff  71684 May 14 13:28 .DS_Store
+drwxr-xr-x   8 slinjung  staff    256 Mar 12 17:52 20180312
+drwxr-xr-x  15 slinjung  staff    480 Mar 14 17:03 20180313
+drwxr-xr-x   7 slinjung  staff    224 Mar 14 17:33 20180314
+drwxr-xr-x  14 slinjung  staff    448 Mar 15 17:40 20180315
+drwxr-xr-x   7 slinjung  staff    224 Mar 26 15:24 20180316
+drwxr-xr-x@  5 slinjung  staff    160 Mar 18 08:52 20180317_weekend
+drwxr-xr-x  11 slinjung  staff    352 Mar 21 13:25 20180319
+drwxr-xr-x   8 slinjung  staff    256 Mar 21 13:25 20180320
+drwxr-xr-x   6 slinjung  staff    192 Mar 22 12:55 20180321
+drwxr-xr-x  14 slinjung  staff    448 Mar 22 18:11 20180322
+drwxr-xr-x@ 10 slinjung  staff    320 Mar 23 14:24 20180323
+drwxr-xr-x   7 slinjung  staff    224 Mar 26 17:37 20180326
+drwxr-xr-x   6 slinjung  staff    192 Mar 27 15:09 20180327
+drwxr-xr-x   6 slinjung  staff    192 Mar 28 17:20 20180328
+drwxr-xr-x   6 slinjung  staff    192 Mar 29 16:00 20180329
+drwxr-xr-x   5 slinjung  staff    160 Mar 30 17:08 20180330
+drwxr-xr-x  12 slinjung  staff    384 Apr  3 13:51 20180402
+drwxr-xr-x   8 slinjung  staff    256 Apr  3 17:02 20180403
+drwxr-xr-x   4 slinjung  staff    128 Apr  4 16:20 20180404
+drwxr-xr-x   4 slinjung  staff    128 Apr  5 16:12 20180405
+drwxr-xr-x@  5 slinjung  staff    160 Apr  6 17:32 20180406
+drwxr-xr-x   7 slinjung  staff    224 Apr  9 17:07 20180409
+drwxr-xr-x   6 slinjung  staff    192 Apr 10 17:03 20180410
+drwxr-xr-x   5 slinjung  staff    160 Apr 12 13:05 20180411
+drwxr-xr-x   5 slinjung  staff    160 Apr 12 15:37 20180412
+drwxr-xr-x   4 slinjung  staff    128 Apr 13 17:39 20180413
+drwxr-xr-x   8 slinjung  staff    256 Apr 17 12:46 20180416
+drwxr-xr-x   4 slinjung  staff    128 Apr 18 12:19 20180417
+drwxr-xr-x   3 slinjung  staff     96 Apr 18 12:19 20180418
+drwxr-xr-x   2 slinjung  staff     64 Apr 19 14:52 20180419
+drwxr-xr-x   3 slinjung  staff     96 Apr 20 17:38 20180420
+drwxr-xr-x   5 slinjung  staff    160 Apr 24 12:56 20180423
+drwxr-xr-x   9 slinjung  staff    288 Apr 24 17:25 20180424
+drwxr-xr-x  10 slinjung  staff    320 Apr 25 17:36 20180425
+drwxr-xr-x   4 slinjung  staff    128 May 11 18:03 20180511
+drwxr-xr-x   7 slinjung  staff    224 May 14 13:24 20180514
+MacBook-Pro:Programming slinjung$ cd ..
+MacBook-Pro:Desktop slinjung$ ls -al
+total 61664
+drwx------+ 12 slinjung  staff       384 May 13 20:33 .
+drwxr-xr-x+ 27 slinjung  staff       864 May 14 12:42 ..
+-rw-r--r--@  1 slinjung  staff     12292 May 14 13:04 .DS_Store
+-rw-r--r--   1 slinjung  staff         0 Feb 26 12:30 .localized
+-rw-r--r--@  1 slinjung  staff      1425 Apr 30 20:46 ASCII art.rtf
+drwxr-xr-x   9 slinjung  staff       288 May  1 16:43 Atelier
+-rw-r--r--@  1 slinjung  staff    828292 May 13 20:33 Budget2018.numbers
+drwxr-xr-x  39 slinjung  staff      1248 May 14 12:39 Programming
+drwxr-xr-x  25 slinjung  staff       800 May  8 15:47 Work
+-rw-r--r--   1 slinjung  staff       124 May  2 13:02 ascii.txt
+-rw-r--r--@  1 slinjung  staff    244669 Apr 20 10:48 e-티켓 확인증 - Korean Air.pdf
+-rw-r--r--@  1 slinjung  staff  30200076 May 11 17:15 git-2.16.3-intel-universal-mavericks.dmg
+MacBook-Pro:Desktop slinjung$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../.CFUserTextEncoding
+	../.Trash/
+	../.bash_history
+	../.bash_profile
+	../.bash_sessions/
+	../.config/
+	../.cups/
+	../.lesshst
+	../.mysql_history
+	../.node_repl_history
+	../.npm/
+	../.viminfo
+	../.vscode/
+	../Applications/
+	.localized
+	ASCII art.rtf
+	Atelier/
+	Budget2018.numbers
+	Programming/20180312/
+	Programming/20180313/
+	Programming/20180314/
+	Programming/20180315/
+	Programming/20180316/
+	Programming/20180317_weekend/
+	Programming/20180319/
+	Programming/20180320/
+	Programming/20180321/
+	Programming/20180322/
+	Programming/20180323/
+	Programming/20180326/
+	Programming/20180327/
+	Programming/20180328/
+	Programming/20180329/
+	Programming/20180330/
+	Programming/20180402/
+	Programming/20180403/
+	Programming/20180404/
+	Programming/20180405/
+	Programming/20180406/
+	Programming/20180409/
+	Programming/20180410/
+	Programming/20180411/
+	Programming/20180412/
+	Programming/20180413/
+	Programming/20180416/
+	Programming/20180417/
+	Programming/20180418/
+	Programming/20180420/
+	Programming/20180423/
+	Programming/20180424/
+	Programming/20180425/
+	Programming/20180511/
+	Programming/20180514/20180514/
+	Work/
+	ascii.txt
+	e-티켓 확인증 - Korean Air.pdf
+	git-2.16.3-intel-universal-mavericks.dmg
+	../Documents/
+	../Downloads/
+	../Library/
+	../Movies/
+	../Music/
+	../Pictures/
+	../Public/
+	../Sites/
+
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Pro:Desktop slinjung$ ls
+ASCII art.rtf							Programming							e-티켓 확인증 - Korean Air.pdf
+Atelier								Work								git-2.16.3-intel-universal-mavericks.dmg
+Budget2018.numbers						ascii.txt
+MacBook-Pro:Desktop slinjung$ ls -al
+total 61664
+drwx------+ 12 slinjung  staff       384 May 13 20:33 .
+drwxr-xr-x+ 27 slinjung  staff       864 May 14 12:42 ..
+-rw-r--r--@  1 slinjung  staff     12292 May 14 13:04 .DS_Store
+-rw-r--r--   1 slinjung  staff         0 Feb 26 12:30 .localized
+-rw-r--r--@  1 slinjung  staff      1425 Apr 30 20:46 ASCII art.rtf
+drwxr-xr-x   9 slinjung  staff       288 May  1 16:43 Atelier
+-rw-r--r--@  1 slinjung  staff    828292 May 13 20:33 Budget2018.numbers
+drwxr-xr-x  39 slinjung  staff      1248 May 14 12:39 Programming
+drwxr-xr-x  25 slinjung  staff       800 May  8 15:47 Work
+-rw-r--r--   1 slinjung  staff       124 May  2 13:02 ascii.txt
+-rw-r--r--@  1 slinjung  staff    244669 Apr 20 10:48 e-티켓 확인증 - Korean Air.pdf
+-rw-r--r--@  1 slinjung  staff  30200076 May 11 17:15 git-2.16.3-intel-universal-mavericks.dmg
+MacBook-Pro:Desktop slinjung$ cd -
+/Users/slinjung/Desktop/Programming
+MacBook-Pro:Programming slinjung$ cd -
+/Users/slinjung/Desktop
+MacBook-Pro:Desktop slinjung$ cd -
+/Users/slinjung/Desktop/Programming
+MacBook-Pro:Programming slinjung$ cd 
+.DS_Store         20180315/         20180320/         20180326/         20180330/         20180405/         20180411/         20180417/         20180423/         20180514/         
+20180312/         20180316/         20180321/         20180327/         20180402/         20180406/         20180412/         20180418/         20180424/         
+20180313/         20180317_weekend/ 20180322/         20180328/         20180403/         20180409/         20180413/         20180419/         20180425/         
+20180314/         20180319/         20180323/         20180329/         20180404/         20180410/         20180416/         20180420/         20180511/         
+MacBook-Pro:Programming slinjung$ cd 20180514
+MacBook-Pro:20180514 slinjung$ ls
+20180514		Boxesboxesboxes.css	database.php		mcescher.html
+MacBook-Pro:20180514 slinjung$ cd 20180514/
+MacBook-Pro:20180514 slinjung$ ls
+README.md
+MacBook-Pro:20180514 slinjung$ ls -al
+total 8
+drwxr-xr-x   4 slinjung  staff  128 May 14 13:24 .
+drwxr-xr-x   7 slinjung  staff  224 May 14 13:24 ..
+drwxr-xr-x  13 slinjung  staff  416 May 14 13:11 .git
+-rw-r--r--   1 slinjung  staff   42 May 14 13:11 README.md
+MacBook-Pro:20180514 slinjung$ pwd
+/Users/slinjung/Desktop/Programming/20180514/20180514
+MacBook-Pro:20180514 slinjung$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+MacBook-Pro:20180514 slinjung$ git add Boxesboxesboxes.css
+fatal: pathspec 'Boxesboxesboxes.css' did not match any files
+MacBook-Pro:20180514 slinjung$ git push
+Everything up-to-date
+MacBook-Pro:20180514 slinjung$ git add Boxesboxesboxes.css
+MacBook-Pro:20180514 slinjung$ git add mcescher.html
+MacBook-Pro:20180514 slinjung$ git add database.php
+MacBook-Pro:20180514 slinjung$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   Boxesboxesboxes.css
+	new file:   database.php
+	new file:   mcescher.html
+
+MacBook-Pro:20180514 slinjung$ git commit -m "Round two of attempted commits!"
+-bash: !": event not found
+MacBook-Pro:20180514 slinjung$ $ git commit -m "I hope thie works. Sending html css and php files to the hub.
+> > "
+-bash: $: command not found
+MacBook-Pro:20180514 slinjung$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   Boxesboxesboxes.css
+	new file:   database.php
+	new file:   mcescher.html
+
+MacBook-Pro:20180514 slinjung$ git commit -m "Please commit these changes?"
+[master 99fb4bc] Please commit these changes?
+ Committer: Slin Jung <slinjung@MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 20 insertions(+)
+ create mode 100644 Boxesboxesboxes.css
+ create mode 100644 database.php
+ create mode 100644 mcescher.html
+MacBook-Pro:20180514 slinjung$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 651 bytes | 651.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/slincjung/20180514.git
+   4cb8251..99fb4bc  master -> master
+MacBook-Pro:20180514 slinjung$ 
