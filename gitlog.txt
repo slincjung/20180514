@@ -1,3 +1,146 @@
+When in doubt, check this file!
+
+Last login: Mon May 14 13:40:47 on ttys000
+MacBook-Pro:~ slinjung$ cd Desktop/Programming/20180514
+MacBook-Pro:20180514 slinjung$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    Boxesboxesboxes.css
+	deleted:    database.php
+	deleted:    mcescher.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../../../.CFUserTextEncoding
+	../../../.Trash/
+	../../../.bash_history
+	../../../.bash_profile
+	../../../.bash_sessions/
+	../../../.config/
+	../../../.cups/
+	../../../.lesshst
+	../../../.mysql_history
+	../../../.node_repl_history
+	../../../.npm/
+	../../../.viminfo
+	../../../.vscode/
+	../../../Applications/
+	../../.localized
+	../../ASCII art.rtf
+	../../Atelier/
+	../../Budget2018.numbers
+	../20180312/
+	../20180313/
+	../20180314/
+	../20180315/
+	../20180316/
+	../20180317_weekend/
+	../20180319/
+	../20180320/
+	../20180321/
+	../20180322/
+	../20180323/
+	../20180326/
+	../20180327/
+	../20180328/
+	../20180329/
+	../20180330/
+	../20180402/
+	../20180403/
+	../20180404/
+	../20180405/
+	../20180406/
+	../20180409/
+	../20180410/
+	../20180411/
+	../20180412/
+	../20180413/
+	../20180416/
+	../20180417/
+	../20180418/
+	../20180420/
+	../20180423/
+	../20180424/
+	../20180425/
+	../20180511/
+	20180514/
+	slate/
+	../../Work/
+	../../ascii.txt
+	../../e-티켓 확인증 - Korean Air.pdf
+	../../git-2.16.3-intel-universal-mavericks.dmg
+	../../../Documents/
+	../../../Downloads/
+	../../../Library/
+	../../../Movies/
+	../../../Music/
+	../../../Pictures/
+	../../../Public/
+	../../../Sites/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+MacBook-Pro:20180514 slinjung$ cd 20180514
+MacBook-Pro:20180514 slinjung$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   gitlog.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+MacBook-Pro:20180514 slinjung$ git add gitlog.txt
+MacBook-Pro:20180514 slinjung$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   gitlog.txt
+
+MacBook-Pro:20180514 slinjung$ git commit -m "adding extra text!"
+git commit -m "adding extra text"
+[master a1d2659] adding extra text
+ Committer: Slin Jung <slinjung@MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 61 insertions(+), 1 deletion(-)
+MacBook-Pro:20180514 slinjung$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 713 bytes | 713.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/slincjung/20180514.git
+   732aa69..a1d2659  master -> master
+MacBook-Pro:20180514 slinjung$ 
+
+
+
+
+
+
+
+//////////////////////////////
+
 Last login: Mon May 14 13:01:21 on ttys000
 MacBook-Pro:~ slinjung$ git status
 On branch master
